@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 10px 7px 19px -3px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 10px 7px 19px -3px rgba(0,0,0,0.49);
+    -moz-box-shadow: 10px 7px 19px -3px rgba(0,0,0,0.49);
+}
+
+.card_left, .card_right{
+    border: 1px solid blue;
+}
+
+.card_left{
+
+}
